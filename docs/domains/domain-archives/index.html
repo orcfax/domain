@@ -20,17 +20,6 @@
 	<body>
 
    
-
-<!-- Loading wrapper start -->
-<div id="loading-wrapper">
-	<div class="spinner">
-		<div class="line1"></div>
-		<div class="line2"></div>
-		<div class="line3"></div>
-	</div>
-</div>
-<!-- Loading wrapper end -->
-		
 <!-- Page wrapper start -->
 <div class="page-wrapper">
 
@@ -49,7 +38,7 @@
 		<div class="sidebar-menu">
 			<div class="sidebarMenuScroll">
 				<ul>
-					<li class="sidebar-dropdown">
+					<li class="sidebar-dropdown active">
 						<a href="#">
 							<i class="bi bi-columns"></i>
 							<span class="menu-text">Domains</span>
@@ -57,22 +46,22 @@
 						<div class="sidebar-submenu">
 							<ul>
 								<li>
-									<a href="domains/domain-orcfax/">Orcfax</a>
+									<a href="domain-orcfax.html">Orcfax</a>
 								</li>
 								<li>
-									<a href="domains/domain-blockchain/">Blockchain technology</a>
+									<a href="domain-blockchain.html">Blockchain technology</a>
 								</li>
 								<li>
-									<a href="domains/domain-cardano/">Cardano blockchain</a>
+									<a href="domain-blockchain.html">Cardano blockchain</a>
 								</li>
 								<li>
-									<a href="domains/domain-software/">Software Engineering</a>
+									<a href="domain-software.html">Software Engineering</a>
 								</li>
 								<li>
-									<a href="domains/domain-archives/">Archival science</a>
+									<a href="domain-archives.html">Archival science</a>
 								</li>
 								<li>
-									<a href="domains/domain-philosophy/">Philosophy</a>
+									<a href="domain-philosophy.html">Philosophy</a>
 								</li>
 							</ul>
 						</div>
@@ -148,9 +137,9 @@
 			<ol class="breadcrumb d-md-flex d-none">
 				<li class="breadcrumb-item">
 					<i class="bi bi-columns"></i>
-					<a href="index.html">Orcfax domain model</a>
+					<a href="index.html">Home</a>
 				</li>
-				<li class="breadcrumb-item breadcrumb-active" aria-current="page">About</li>
+				<li class="breadcrumb-item breadcrumb-active" aria-current="page">Orcfac domain model</li>
 			</ol>
 			<!-- Breadcrumb end -->
 
@@ -171,57 +160,12 @@
 
 				<!-- Row start -->
 				<div class="row">
-					<div class="col-sm-6 col-12">
-						<div class="content-block">
-						<h1>The Orcfax domain model</h1>
-						<p class="mb-2">This <strong><a href="" class="text-primary">Orcfax domain model<a></strong> is a series of abstractions that describe aspects of the domain in which the <a href="https://orcfax.io" class="text-primary">Orcfax</a> blockchain oracle exists and can be used to solve problems related to Orcfax design, maintenance, and upgrades.</p>
-						<h2>Domain Driven Design</h2>
-						<p class="mb-2">Orcfax is a software-intensive system developed using <a href="https://en.wikipedia.org/wiki/Domain-driven_design" class="text-primary">Domain Driven Design</a> (DDD) concepts and practices from the software engineering discipline. DDD focuses on the subject area to which the software is applied. For Orcfax that includes collecting, validating, publishing and archiving real-world facts.</p>
-						<p class="mb-2">A clear <a href="https://en.wikipedia.org/wiki/Domain_model" class="text-primary">domain model</a> is created as part of DDD methodology and it is the purpose of this website to define the Orcfax domain. This model is meant to be <a href="https://diataxis.fr/" class="text-primary">Reference documentation</a> to complement Orcfax's public <a href="https://docs.orcfax.io class="text-primary"">Explainer documentation</a>.</p>
-						<h2>How to contribute</h2>
-						<p class="mb-2">Please see <a href="https://github.com/orcfax/domain" class="text-primary">these instructions</a> if you want to discuss or suggest content for this domain model.</p>
-						</div>
-					</div>
-					<div class="col-xxl-6 col-sm-6 col-12">
-						<div class="content-block">
-						<h1>The Orcfax glossary</h1>
-						<p class="mb-2">A key aspect of a domain model is the <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html" class="text-primary">ubiquitious language</a> which is the shared terminology used by domain experts, software developers and end-users. We've formatted that here as the <strong><a href="" class="text-primary">Orcfax glossary</a></strong>, ie. a list of terms with clear definitions.</p>
-						<p class="mb-2">
-						<p class="mb-2">The Orcfax domain exists at a cross-section of a number of different domains for which we also maintain a <a href="" class="text-primary">glossary of external terms</a>.</p>
-						<p class="mb-2 text-center">
-							<img src="assets/images/orcfax-domains.png" alt="Orcfax domain intersection" class="img-fluid" width="50%"/>
-						</p>
+					<div class="col-12">
 
-						</div>
-					</div>
-
-					<!-- spacer -->
-					<div class="col-12">&nbsp;</div>
-
-					<div class="col-sm-6 col-12">
-					<div class="card border-secondary">
-							<img src="assets/images/orcfax-banner.png" class="card-img-top" alt="Orcfax domain">
-							<div class="card-body">
-								<div class="card-title">Orcfax domain</div>
-								<p class="mb-2">Orcfax is a software oracle that collects, validates, and publishes fact statements about the real world on the Cardano blockchain and archives them using open-standards on the Arweave storage network.</p>
-								<a href="#" class="btn btn-outline-secondary">See domain model</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-12">
-					<div class="card border-secondary">
-							<img src="assets/images/glossary-banner.jpg" class="card-img-top" alt="Orcfax glossary">
-							<div class="card-body">
-								<div class="card-title">Orcfax glossary</div>
-								<p class="mb-2">The Orcfax glossary is intended to clarify and dissambiguate the concepts and entities that exist within the Orcfax domain by providing clear term definitions that can be used by all domain stakeholders to ensure there is a shared understanding (ie. ubiquitious language).</p>
-								<a href="#" class="btn btn-outline-secondary">See terms</a>
-							</div>
-						</div>
-					</div>
-		
-				
+                    <h1>Archival science domain model</h1>
 
 
+					</div
 				</div>
 				<!-- Row end -->
 
